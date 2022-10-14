@@ -15,7 +15,7 @@ class callable implements Callable<String>{
     }
 }
 
-public class Question4 {
+class Question4 {
     public static void main(String[] args) {
         runnable r = new runnable();
         callable c = new callable();
