@@ -17,7 +17,7 @@ class thread2 implements Runnable{
         }
     }
 }
-public class Question2 {
+class Question2 {
     public static void main(String[] args) throws InterruptedException{
         ExecutorService es = Executors.newSingleThreadExecutor();
         System.out.println("tasks by cached thread pool");
