@@ -1,4 +1,3 @@
-
 class thread extends Thread{
     @java.lang.Override
     public void run() {
@@ -23,16 +22,16 @@ class thread_a extends Thread{
 
 
 
-public class Question3 {
+class Question3 {
     public static void main(String[] args) throws InterruptedException{
-//        thread t = new thread();
-//        Thread t1 = new Thread(t);
-//        Thread t2 = new Thread(t);
-//        Thread t3 = new Thread(t);
-//        t1.start();
-//        t2.start();
-//        t3.start();
-        System.out.println();
+        thread t = new thread();
+        Thread t1 = new Thread(t);
+        Thread t2 = new Thread(t);
+        Thread t3 = new Thread(t);
+        t1.start();
+        t2.start();
+        t3.start();
+        System.out.println("/n");
         thread_a tt = new thread_a();
         Thread t4 = new Thread(tt);
         Thread t5 = new Thread(tt);
